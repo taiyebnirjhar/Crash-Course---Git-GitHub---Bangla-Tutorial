@@ -194,8 +194,15 @@ git checkout new-branch-name
 
 #### 🚨 Merge
 
-1. marging current branch with another branch. for example you are in 'checkone' branch and now we are trying to merge this with main branch
+1. marging current branch with another branch. for example we are in 'checkone' branch and now we are trying to merge this with main branch
 
 ```bash
 git merge main -m 'merging  checkone with main'
+```
+
+💡 Now checkone branch is upto date but main branch have no idea whats happening on other branches thats why we need to merge main branch with checkone
+
+```bash
+git checkout main
+git merge checkone -m 'merging  main with checkone'
 ```
