@@ -77,7 +77,7 @@ git init
 ###### 🔥 Clone a git repository
 
 ```bash
-git clone 'targeted-url'
+git clone targeted-url
 ```
 
 <br>
