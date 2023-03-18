@@ -1,3 +1,9 @@
+---
+title: My README
+theme: jekyll-theme-cayman
+css: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css
+---
+
 # [Crash Course - সহজ বাংলায় Git & GitHub - Bangla ( বাংলা ) Tutorial by Learn with Sumit](https://youtu.be/oe21Nlq8GS4)
 
 ### Fundamental Theory
@@ -56,7 +62,9 @@ git config --global user.email "youremail@example.com"
 
 ### Play with git
 
-1. initializing new git repository
+<br>
+
+###### 🔥 Initializing new git repository
 
 ```bash
 git init
@@ -67,3 +75,19 @@ git init
 💡 ".git" that contains all of the necessary files for Git to manage the repository. These files include : `config`, `description`, `HEAD`, `index`, `hooks`
 
 💁‍♂️ Deleting '.git' removes the repository's history and configuration
+
+<br>
+
+###### 🔥 Clone a git repository
+
+```bash
+git clone 'targeted-url'
+```
+
+<br>
+
+###### 🔥 Clone a git repository
+
+```bash
+git clone 'targeted-url'
+```
