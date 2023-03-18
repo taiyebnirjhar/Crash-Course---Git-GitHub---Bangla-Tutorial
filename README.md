@@ -1,4 +1,4 @@
-# Crash Course - সহজ বাংলায় Git & GitHub - Bangla ( বাংলা ) Tutorial by Learn with Sumit
+# [Crash Course - সহজ বাংলায় Git & GitHub - Bangla ( বাংলা ) Tutorial by Learn with Sumit](https://youtu.be/oe21Nlq8GS4)
 
 ### Fundamental Theory
 
