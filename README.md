@@ -51,3 +51,19 @@ git --version
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
+
+---
+
+### Play with git
+
+1. initializing new git repository
+
+```bash
+git init
+```
+
+💡 Running "git init" in a directory creates a ".git" subdirectory with files for Git to manage the repository.
+
+💡 ".git" that contains all of the necessary files for Git to manage the repository. These files include : `config`, `description`, `HEAD`, `index`, `hooks`
+
+💁‍♂️ Deleting '.git' removes the repository's history and configuration
