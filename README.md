@@ -186,4 +186,16 @@ git branch
 git branch new-branch-name
 ```
 
-💡 remove + stage
+3. move to another branch
+
+```bash
+git checkout new-branch-name
+```
+
+#### 🚨 Merge
+
+1. marging current branch with another branch. for example you are in 'checkone' branch and now we are trying to merge this with main branch
+
+```bash
+git merge main -m 'merging  checkone with main'
+```
