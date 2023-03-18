@@ -241,4 +241,4 @@ git merge
 git pull
 ```
 
-💡 git Fetch + git merge
+💡 git fetch + git merge
