@@ -82,14 +82,6 @@ git clone 'targeted-url'
 
 <br>
 
-###### 🔥 Clone a git repository
-
-```bash
-git clone 'targeted-url'
-```
-
-<br>
-
 ###### 🔥 Check current state / status
 
 ```bash
