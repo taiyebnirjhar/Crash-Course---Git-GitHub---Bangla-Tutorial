@@ -118,6 +118,12 @@ or if the file is inside a children folder
 git add foldername filename
 ```
 
+#### 🔥 Commit
+
+```bash
+git commit -m 'your commit text'
+```
+
 #### 🔥 Reset / Unstage changes
 
 1. "git reset" without any arguments
@@ -152,4 +158,16 @@ git reset HEAD~
 
 💡 without the number it automatically refers to '1' / last commit
 
-#### 🔥 Commit
+3. 'git reset' only resets staging. if we delete a file and we want reset the delete action & staging:
+
+```bash
+git reset --hard
+```
+
+#### 🔥 Remove
+
+```bash
+git rm filename
+```
+
+💡 remove + stage
