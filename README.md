@@ -171,19 +171,3 @@ git rm filename
 ```
 
 💡 remove + stage
-
-#### 🚨 Branch
-
-1. check available branch:
-
-```bash
-git branch
-```
-
-2. create new branch:
-
-```bash
-git branch new-branch-name
-```
-
-💡 remove + stage
