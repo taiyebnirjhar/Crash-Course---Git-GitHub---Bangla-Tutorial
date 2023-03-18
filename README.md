@@ -206,3 +206,39 @@ git merge main -m 'merging  checkone with main'
 git checkout main
 git merge checkone -m 'merging  main with checkone'
 ```
+
+#### 🚨🚨 Merge Conflict
+
+1. First, run `git status` to see which files have conflicts.
+2. Open the conflicting file(s) in a code editor to view the merge conflicts. You will see sections of the code that have been marked with conflict markers such as <<<<<<< HEAD, =======, and >>>>>>>.
+3. Edit the conflicting code to resolve the conflicts. You may need to consult with the other contributors to determine the appropriate changes.
+4. After making the changes, stage the modified file(s) using git add.
+5. Commit the changes using git commit.
+
+#### Push
+
+```bash
+git push origin branchname
+```
+
+#### Fetch
+
+```bash
+git fetch
+```
+
+💡 `git fetch` downloads changes from a remote repository to your local repository, but does not merge those changes with your current branch. This command is useful for keeping your local repository up-to-date with changes made by other team members, without affecting your own work.
+
+**To merge with the remote repository we need to merge manually**
+
+```bash
+git merge
+```
+
+#### Pull
+
+```bash
+git pull
+```
+
+💡 git Fetch + git merge
