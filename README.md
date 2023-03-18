@@ -87,3 +87,11 @@ git clone 'targeted-url'
 ```bash
 git clone 'targeted-url'
 ```
+
+<br>
+
+###### 🔥 Check current state / status
+
+```bash
+git status
+```
