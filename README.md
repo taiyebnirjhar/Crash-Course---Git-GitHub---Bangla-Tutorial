@@ -143,3 +143,13 @@ git reset HEAD~1
 ```
 
 💡 Here '1' referes to go back one commit.
+
+for last commit
+
+```bash
+git reset HEAD~
+```
+
+💡 without the number it automatically refers to '1' / last commit
+
+#### 🔥 Commit
