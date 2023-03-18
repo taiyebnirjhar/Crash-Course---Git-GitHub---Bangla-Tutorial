@@ -215,13 +215,13 @@ git merge checkone -m 'merging  main with checkone'
 4. After making the changes, stage the modified file(s) using git add.
 5. Commit the changes using git commit.
 
-#### Push
+#### ⚠️ Push
 
 ```bash
 git push origin branchname
 ```
 
-#### Fetch
+#### ⚠️ Fetch
 
 ```bash
 git fetch
@@ -235,7 +235,7 @@ git fetch
 git merge
 ```
 
-#### Pull
+#### ⚠️ Pull
 
 ```bash
 git pull
