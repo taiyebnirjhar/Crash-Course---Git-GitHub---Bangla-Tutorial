@@ -171,3 +171,31 @@ git rm filename
 ```
 
 💡 remove + stage
+
+#### 🚨 Branch
+
+1. check available branch:
+
+```bash
+git branch
+```
+
+2. create new branch:
+
+```bash
+git branch new-branch-name
+```
+
+3. move to another branch
+
+```bash
+git checkout new-branch-name
+```
+
+#### 🚨 Merge
+
+1. marging current branch with another branch. for example you are in 'checkone' branch and now we are trying to merge this with main branch
+
+```bash
+git merge main -m 'merging  checkone with main'
+```
