@@ -87,3 +87,71 @@ git clone targeted-url
 ```bash
 git status
 ```
+
+<br>
+
+#### 🔥 Staging / Adding changes to the staging area
+
+1. Staging all file
+
+```bash
+git add -A
+```
+
+or
+
+```bash
+git add --all
+```
+
+2. Staging all files of current folder
+
+```bash
+git add .
+```
+
+3. Staging all changes except deleted files or risky changes in Git
+
+```bash
+git add *
+```
+
+4. Staging specific file
+
+```bash
+git add filename
+```
+
+or if the file is inside a children folder
+
+```bash
+git add foldername filename
+```
+
+<br>
+
+#### 🔥 Reset / Unstage changes
+
+1. "git reset" without any arguments
+
+```bash
+git reset
+```
+
+💡 Use 'git reset' without any arguments to quickly unstage all changes
+
+2. We can also use "git reset" to unstage specific files or specific commits,
+
+for specific file:
+
+```bash
+git reset HEAD file.txt
+```
+
+for specific commit:
+
+```bash
+git reset HEAD~1
+```
+
+💡 Here '1' referes to go back one commit.
