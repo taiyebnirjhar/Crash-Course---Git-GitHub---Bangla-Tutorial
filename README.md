@@ -4,13 +4,11 @@
 
 ### Fundamental Theory
 
-<br>
-
 Local
 
 - working directory => Stage => local repository
 
-For example: <br>
+For example:
 
 1. git add . ( working directory => Stage )
 
@@ -20,7 +18,7 @@ Remote
 
 - local repository => remote
 
-For example: <br>
+For example:
 
 1. git push ( local repository => remote )
 
@@ -58,8 +56,6 @@ git config --global user.email "youremail@example.com"
 
 ### Play with git
 
-<br>
-
 #### 🔥 Initializing new git repository
 
 ```bash
@@ -72,23 +68,17 @@ git init
 
 💁‍♂️ Deleting '.git' removes the repository's history and configuration
 
-<br>
-
 #### 🔥 Clone a git repository
 
 ```bash
 git clone targeted-url
 ```
 
-<br>
-
 #### 🔥 Check current state / status
 
 ```bash
 git status
 ```
-
-<br>
 
 #### 🔥 Staging / Adding changes to the staging area
 
@@ -127,8 +117,6 @@ or if the file is inside a children folder
 ```bash
 git add foldername filename
 ```
-
-<br>
 
 #### 🔥 Reset / Unstage changes
 
