@@ -206,5 +206,3 @@ git merge main -m 'merging  checkone with main'
 git checkout main
 git merge checkone -m 'merging  main with checkone'
 ```
-
-hi
