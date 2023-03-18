@@ -1,8 +1,4 @@
----
-title: My README
-theme: jekyll-theme-cayman
-css: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css
----
+<link rel="stylesheet" type="text/css" href="style.css">
 
 # [Crash Course - সহজ বাংলায় Git & GitHub - Bangla ( বাংলা ) Tutorial by Learn with Sumit](https://youtu.be/oe21Nlq8GS4)
 
