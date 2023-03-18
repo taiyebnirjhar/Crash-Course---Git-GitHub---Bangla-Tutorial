@@ -60,7 +60,7 @@ git config --global user.email "youremail@example.com"
 
 <br>
 
-###### 🔥 Initializing new git repository
+#### 🔥 Initializing new git repository
 
 ```bash
 git init
@@ -74,7 +74,7 @@ git init
 
 <br>
 
-###### 🔥 Clone a git repository
+#### 🔥 Clone a git repository
 
 ```bash
 git clone targeted-url
@@ -82,7 +82,7 @@ git clone targeted-url
 
 <br>
 
-###### 🔥 Check current state / status
+#### 🔥 Check current state / status
 
 ```bash
 git status
